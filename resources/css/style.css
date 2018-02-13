@@ -1,0 +1,15 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  background-color: black;
+  opacity: 0,9;
+  text-align: center;
+  height: 3000px;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
