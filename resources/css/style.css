@@ -68,31 +68,46 @@ nav header {
   height: 200px;
 }
 
-.Locations {
+.small-conteneur {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 50px;
   margin-top: 50px;
   margin-left: 50px;
-  display: flex;
   align-items: center;
-  justify-content: center;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
-  height: 500px;
+  height: 550px;
 }
+.titre-location {
+  display: flex;
+
+}
+
+.Locations {
+  display: flex;
+}
+
 
 .address {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   background-color: black;
   opacity: 1;
   width: 300px;
   height: 250px;
   justify-content: center;
-  align-items: stretch;
-  margin: 0 auto 0 auto;
+  align-items: center;
+  margin-top: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 h4 {
   margin: 10px;
+  font-size: 20px;
 }
 
 footer {
@@ -105,4 +120,5 @@ footer {
 p {
   text-align: left;
   margin-left: 20px;
+  font-size: 22px;
 }
